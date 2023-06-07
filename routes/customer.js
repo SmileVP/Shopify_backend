@@ -4,7 +4,7 @@ var router = express.Router();
 //Mongoose to manage relationships between data, has schema validation
 const mongoose = require("mongoose");
 
-const { dbUrl } = require("../config/dbconfig");
+const { dbUrl } = require("../config/dbConfig");
 const jwt = require("jsonwebtoken");
 const { passwordEmail } = require("../service/passwordEmail");
 const { customerModel } = require("../schema/customerSchema");

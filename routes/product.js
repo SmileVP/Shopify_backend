@@ -3,7 +3,7 @@ var router = express.Router();
 //Mongoose to manage relationships between data, has schema validation
 const mongoose = require("mongoose");
 
-const { dbUrl } = require("../config/dbconfig");
+const { dbUrl } = require("../config/dbConfig");
 const { ProductModel } = require("../schema/productSchema");
 
 //to connect to db

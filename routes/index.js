@@ -11,7 +11,7 @@ const jwt = require("jsonwebtoken");
 const { passwordEmail } = require("../service/passwordEmail");
 
 //frontend url
-let url = "http://localhost:3000";
+let url = "https://celebrated-liger-a9b72b.netlify.app";
 
 const {
   hashPassword,

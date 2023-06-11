@@ -10,6 +10,7 @@ const { ProductModel } = require("../schema/productSchema");
 const jwt = require("jsonwebtoken");
 const { passwordEmail } = require("../service/passwordEmail");
 
+
 //frontend url
 let url = "https://celebrated-liger-a9b72b.netlify.app";
 
@@ -17,7 +18,8 @@ const {
   hashPassword,
   hashCompare,
   createToken,
-  validate
+  validate,
+  decodePasswordToken
 } = require("../config/auth");
 
 //to connect to db
